@@ -39,12 +39,12 @@ const Details = () => {
               <div>
                 <h1>Would you like to adopt {pet.name}?</h1>
                 <div className="buttons">
-                  <button>
-                    onClick=
-                    {() => {
+                  <button
+                    onClick={() => {
                       setAdopedPet(pet);
                       navigate("/");
                     }}
+                  >
                     Yes
                   </button>
                   <button onClick={() => setShowModal(false)}>No</button>
