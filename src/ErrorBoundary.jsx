@@ -1,3 +1,5 @@
+// Mostly taken from react docs. This is how they are written
+
 import { Component } from "react";
 import { Link } from "react-router-dom";
 

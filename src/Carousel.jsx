@@ -1,3 +1,5 @@
+// Old way of doing things with classes. Hooks or class components. DO NOT MIX
+
 import { Component } from "react";
 
 class Carousel extends Component {
@@ -11,6 +13,7 @@ class Carousel extends Component {
 
   handleIndexClick = (e) => {
     this.setState({
+      // + coerces string to number
       active: +e.target.dataset.index,
     });
   };

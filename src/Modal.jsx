@@ -11,6 +11,7 @@ const Modal = ({ children }) => {
     const modalRoot = document.getElementById("modal");
     modalRoot.appendChild(elRef.current);
 
+    // this will return when component unmounts from the DOM (component will unmount)
     return () => modalRoot.removeChild(elRef.current);
   }, []);
 

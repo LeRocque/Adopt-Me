@@ -58,6 +58,7 @@ const Details = () => {
   );
 };
 
+// We do not care about props if we had any. Just pass them through
 function DetailsErrorBoundary(props) {
   return (
     <ErrorBoundary>
